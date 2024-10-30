@@ -1,0 +1,98 @@
+#wpcontent {
+    background: linear-gradient(90deg, #f0f0f1 50%, #FFFFFF 50%);
+}
+
+.cheritto-wordpress-importer-button {
+    padding:10px;
+    border:1px solid grey;
+}
+
+.cheritto-wordpress-importer-button-start {
+    background-color: lightgreen;
+}
+
+ul.cheritto-wordpress-importer-ul {
+    list-style-type: circle;
+    margin-bottom:30px;
+}
+
+ul.cheritto-wordpress-importer-ul li {
+    margin-left:20px;
+}
+
+#filelist {
+    margin-top: 10px;
+}
+
+table.cheritto-wordpress-importer-report-table th, table.cheritto-wordpress-importer-report-table td {
+    border:1px solid grey;
+    padding:5px;
+}
+
+table.cheritto-wordpress-importer-report-table th {
+    background-color: lightskyblue;
+}
+
+table.cheritto-wordpress-importer-report-table td {
+    background-color: white;
+}
+
+h2.cheritto-wordpress-importer-check-running, h2.cheritto-wordpress-importer-check-summary {
+    display:inline-block;
+    padding: 10px;
+    border:3px dashed white;
+    background-color: lightgreen;
+}
+
+h2.cheritto-wordpress-importer-warning {
+    display:inline-block;
+    padding: 10px;
+    border:3px dashed white;
+    background-color: lightcoral;
+    color:white;
+}
+
+h4.cheritto-wordpress-importer-file {
+    margin-bottom: 1px;
+    margin-left: 2px;
+    padding: 5px;
+    border: 1px dotted silver;
+    display: inline-block;
+    background-color:white;
+}
+
+table.cheritto-wordpress-importer-summary-table td {
+    padding-right:5px;
+}
+
+td.cheritto-wordpress-importer-td-strategy-label {
+    padding-bottom:2px;
+    padding-right:10px;
+    border-right: 1px dotted silver;
+}
+
+div.cheritto-wordpress-importer-left-container {
+    float:left;
+    width:calc(50% - 50px);
+    padding-right:50px;
+    margin-top:17px;
+}
+
+div.cheritto-wordpress-importer-right-container {
+    float:right;
+    width:calc(50% - 65px);
+    padding-left:15px;
+    padding-right:50px;
+    line-height:2em;
+    margin-top:27px;
+}
+
+div.cheritto-wordpress-importer-clear {
+    clear:both;
+}
+
+ul.cheritto-wordpress-importer-description-list {
+    list-style: circle;
+    width:50%;
+    padding-left:20px;
+}
